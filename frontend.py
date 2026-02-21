@@ -44,7 +44,7 @@ for message in st.session_state.chat_history:
 # Chat Input Box (bottom style)
 user_query = st.chat_input("Ask anything...")
 
-API_URL = "http://127.0.0.1:9999/chat"
+API_URL = " https://colten-retroflex-natalie.ngrok-free.dev"
 
 if user_query:
     # Show user message
